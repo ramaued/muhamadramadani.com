@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Footer from "../components/Footer";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -23,9 +24,11 @@ export default function Home() {
             </div>
           </div>
           <div className="hidden md:block bg-function md:rounded-md">
-            <img
+            <Image
               src="https://i.ibb.co.com/hFdrq8L/muhamad-ramadani.png"
               alt="muhamad-ramadani"
+              width={452}
+              height={452}
               className="w-60 mt-20"
             />
           </div>
